@@ -1,4 +1,4 @@
-import  Question  from '../models/index.js';
+import { Question } from '../models/index.js';
 
 const cleanDB = async (): Promise<void> => {
   try {
