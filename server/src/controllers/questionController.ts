@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 // import question model
-import Question from '../models/Question.js';
+import {Question} from '../models/Question.js';
 
 // gets a set of random questions
 export const getRandomQuestions = async (_req: Request, res: Response) => {
